@@ -10,4 +10,8 @@ content = response.json() #structure list
 country = 'Iceland'
 
 # acccss data
+for c in content:
+    country_name = c['name']['common']
+    #if
+
 
